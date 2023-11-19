@@ -7,3 +7,10 @@ This Web Invite will contain:
 - An map to the party location
 - An slider with my grandma photos
 - (other future ideas
+- Info( data, local, horário)
+- Como presentear? (link para o site da instituição + Agencia e conta BB)
+
+
+Technologies: 
+JavaScript, HTML, CSS
+Simple but effective design 
