@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lovers+Quarrel&display=swap");
+body {
+  font-family: "Dancing Script", cursive;
+  background-color: #dee4e7;
+  height: 100vh;
+}
+.container {
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  background-color: #222222;
+  color: #fff;
+  font-size: 36px;
+  gap: 1rem;
+}
+nav p {
+  align-self: flex-start;
+  padding: 1rem;
+}
+ul {
+  flex: 2;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+}
+a:hover {
+  color: #222222;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  padding: 1rem 2rem 1rem 2rem;
+  flex: 100%;
+}
+
+.convite {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: space-around;
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+.fotoNorma {
+  flex: 1;
+  background-color: white;
+}
+
+.textoImg {
+  height: 500px;
+  display: flex;
+  padding: 1rem 2rem 1rem 2rem;
+}
+#texto {
+  flex: 1;
+  padding: 1rem;
+  font-size: 2rem;
+  border: 1px solid white;
+}
+.segundaNorma {
+  flex: 1;
+  background-color: #fff;
+}
+
+.sliderDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  height: 350px;
+  width: 100%;
+  padding: 1rem 2rem 1rem 2rem;
+}
+.slider {
+  flex: 1;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.infoDiv {
+  border: 1px solid white;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem 1rem 2rem;
+  gap: 2rem;
+}
